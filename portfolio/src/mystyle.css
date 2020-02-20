@@ -6,6 +6,7 @@ body{
     background-color: #F9F3F3; 
     font-family: 'Prompt', sans-serif;
     font-weight: 300;
+    color: #66242D;
 }
 
 /* NavBarre */
@@ -92,4 +93,46 @@ body{
     margin: 0; 
     padding: 0;
     line-height: 1.1em;
+}
+
+.sentenceContainer{
+    /* border: 2px solid royalblue;  */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sentence{
+    /* border: 2px solid fuchsia;  */
+    width: 60%;
+
+}
+
+.sentence h3{
+    font-size: 4em;
+}
+
+.myName {
+    color: #FFFFFF; 
+    text-shadow: #66242d 1px 1px, #66242d -1px 1px, #66242d -1px -1px, #66242d 1px -1px;
+
+}
+
+.scrollContainer{
+    /* border: 2px solid palegreen;  */
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrollContainer p {
+    /* border: 2px solid gray;  */
+    font-size: 1.25em;
+    margin: 1vw;
+}
+
+.scrollContainer img{
+    /* border: 2px solid cornflowerblue;  */
 }
