@@ -1,0 +1,19 @@
+/* Numéro de page */
+
+.pageNumber{
+    /* border: 2px solid green; */
+    display: flex; 
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.pageNumber h2{
+    /* border: 2px solid turquoise;  */
+    color: #C78283; 
+    opacity: 0.10;
+    font-size: 25em;
+    font-weight: 700;
+    margin: 0; 
+    padding: 0;
+    line-height: 1.1em;
+}

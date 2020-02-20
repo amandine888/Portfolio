@@ -1,0 +1,15 @@
+/* Title */
+
+.titleContainer {
+    /* border: 2px solid blue;  */
+    display: flex; 
+    justify-content: center;
+    height: 60Vh; 
+}
+
+.titleContainer h1{
+    /* border: 2px solid red; */
+    color: #C78283; 
+    font-size: 25em;
+    margin: 0; 
+}
