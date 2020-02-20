@@ -4,7 +4,9 @@ import {withRouter} from 'react-router-dom';
 class Title extends React.Component{
     render (){
         return (
-            <div></div>
+            <div className='titleContainer'>
+                <h1>INTRO</h1>
+            </div>
         )
     }
 }

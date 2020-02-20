@@ -1,7 +1,8 @@
 import React from 'react'; 
 import {withRouter} from 'react-router-dom'; 
 import NavBarre from './NavBarre'; 
-import Title from './Title'; 
+import Title from './Title';
+import Numbers from './Numbers';  
 import './../mystyle.css';
 
 class Home extends React.Component {
@@ -10,6 +11,7 @@ class Home extends React.Component {
             <div>
                     <NavBarre/>
                     <Title/>
+                    <Numbers/>
             </div>
         ); 
     }
