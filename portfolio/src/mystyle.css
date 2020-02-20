@@ -15,6 +15,7 @@ body{
     color: #BF0921; 
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .listeContainer{
@@ -26,6 +27,8 @@ body{
     text-decoration: none;
     list-style: none;
     width: 60%;
+    position: fixed; 
+    top: 3vh; 
 }
 
 .linkContainer{
@@ -57,6 +60,19 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.ringDiv{
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+    border: #BF0921 2px solid;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 5vw; 
+    top: 1vh;
 }
 
 /* Title */
@@ -94,6 +110,8 @@ body{
     padding: 0;
     line-height: 1.1em;
 }
+
+/* Sentence */
 
 .sentenceContainer{
     /* border: 2px solid royalblue;  */

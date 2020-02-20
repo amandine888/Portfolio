@@ -1,12 +1,17 @@
 import React from 'react'; 
 import {withRouter} from 'react-router-dom'; 
+import {Route, Switch, Link, BrowserRouter as Router} from 'react-router-dom'; 
+
+const style = { fontSize: '1.5em', 
+color: '#BF0921', 
+textDecoration: 'none'}
 
 class NavBarre extends React.Component {
     render (){
         return (
             <div>
-                <nav class='navBarre'>
-                    <ul class='listeContainer'> 
+                <nav className='navBarre'>
+                    <ul className='listeContainer'> 
                         <div className='linkContainer'>
                             <li>Home</li>
                             <div className='divNumber'>
@@ -45,6 +50,9 @@ class NavBarre extends React.Component {
                         </div>
                     </ul>
                 </nav>
+                <div className='ringDiv'>
+                        <Link to= '/' style={style}>Back</Link>
+                </div>
             </div>
         ); 
     }
