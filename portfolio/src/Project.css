@@ -1,0 +1,12 @@
+.sentenceContainer{
+    /* border: 2px solid turquoise;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.position{
+    /* border: 2px solid red; */
+    margin-left: 10vw;
+    width: 68vw;
+}
