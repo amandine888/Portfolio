@@ -4,10 +4,12 @@ import NavBarre from './NavBarre';
 import Title from './Title';
 import Numbers from './Numbers';  
 import Sentence from './Sentence'; 
+import Scroll from './Scroll'; 
 import './../NavBarre.css'; 
 import './../Title.css'; 
 import './../Numbers.css'; 
 import './../Sentence.css'; 
+import './../Scroll.css'
 import './../mystyle.css';
 
 class Home extends React.Component {
@@ -18,6 +20,7 @@ class Home extends React.Component {
                     <Title/>
                     {/* <Numbers/> */}
                     <Sentence/>
+                    <Scroll/>
             </div>
         ); 
     }

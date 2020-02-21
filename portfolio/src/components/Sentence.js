@@ -8,10 +8,6 @@ class Sentence extends React.Component {
                 <div className= 'sentence'>
                     <h3>DEVELOPPEMENT WEB - <span className="myName">AMANDINE DIVAY -</span> WEBDESIGN - CONSULTING</h3>
                 </div>
-                <div className='scrollContainer'>
-                    <p>Scroll down</p>
-                    <img src='img/Fleche.png'></img>
-                </div>
             </div>
         )
     }
