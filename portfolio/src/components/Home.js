@@ -5,11 +5,13 @@ import Title from './Title';
 import Numbers from './Numbers';  
 import Sentence from './Sentence'; 
 import Scroll from './Scroll'; 
+import Curriculum from './Curriculum'; 
 import './../NavBarre.css'; 
 import './../Title.css'; 
 import './../Numbers.css'; 
 import './../Sentence.css'; 
 import './../Scroll.css'
+import './../Curriculum.css'; 
 import './../mystyle.css';
 
 class Home extends React.Component {
@@ -21,6 +23,7 @@ class Home extends React.Component {
                     {/* <Numbers/> */}
                     <Sentence/>
                     <Scroll/>
+                    <Curriculum/>
             </div>
         ); 
     }
