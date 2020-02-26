@@ -1,0 +1,32 @@
+.footerDiv{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.discover p {
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+footer{
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+.linkProject{
+    /* border: 2px solid red;  */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkProject li{
+    list-style: none;
+}
