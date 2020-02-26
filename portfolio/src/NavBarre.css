@@ -18,6 +18,7 @@
     width: 60%;
     position: fixed; 
     top: 3vh; 
+    z-index: 5;
 }
 
 .linkContainer{
@@ -62,4 +63,5 @@
     position: fixed;
     right: 5vw; 
     top: 1vh;
+    z-index: 6;
 }

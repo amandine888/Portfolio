@@ -1,11 +1,11 @@
 import React from 'react'; 
 import {withRouter} from 'react-router-dom'; 
 
-class Curriculum extends React.Component {
+class Career extends React.Component {
     render (){
         return (
             <div className='containerCv'>
-                <div className='parcours'>
+                <div className='career'>
                     <h4>date</h4>
                     <div className='experiences'>
                         <time>22.02.2020</time>
@@ -44,4 +44,4 @@ class Curriculum extends React.Component {
     }
 }
 
-export default withRouter (Curriculum); 
+export default withRouter (Career); 

@@ -1,0 +1,157 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.titleContainer h1{
+    /* border: 2px solid red;  */
+    font-size: 12.5em;
+    margin-top: 20vh;
+}
+
+.formuleContainer{
+    /* border: 2px solid blue; */
+    width: 50vw;
+    position: absolute;
+    bottom: 27vh;
+}
+
+.formuleContainer p {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.projectContainer {
+    display: flex;
+}
+
+.sizeDiv{
+    /* border: 2px solid purple; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailsProject{
+    /* border: 2px solid fuchsia; */
+    width: 30vw;
+    height: 130vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailsProject h4{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.detailsProject p {
+    font-size: 1.25em;
+}
+
+.colorContainer{
+    width: 50vw;
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.color1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #FFF5F5; 
+    border: 1px solid black;
+}
+
+.color2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #D68F8F; 
+    border: 1px solid black;
+}
+
+.color3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #F91818; 
+    border: 1px solid black;
+}
+
+.positionImg{
+    /* border:2px solid forestgreen; */
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nomuseDiv1{
+    /* border:2px solid maroon; */
+    width: 250px;
+    height: 250px;
+}
+
+.nomuseDiv1 img{
+    /* border:2px solid gray; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.nomuseDiv2{
+    /* border:2px solid powderblue; */
+    width: 40vw;
+    height: 60vh;
+}
+
+.nomuseDiv2 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.nomuseDiv3 {
+    /* border:2px solid darkgoldenrod; */
+    width: 40vw;
+    height: 80vh;
+}
+
+.nomuseDiv3 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.positionTitle1{
+    position: relative; 
+}
+
+.positionTitle1 h3{
+    text-transform: uppercase;
+    font-size: 4em;
+    position: absolute; 
+    right: 30vw; 
+    top: 35vh;
+}
+
+.positionTitle2{
+    position: relative;
+}
+
+.positionTitle2 h3{
+    text-transform: uppercase;
+    font-size: 4em;
+    position: absolute;
+    left: 20vw;
+    top: 50vh;
+}
