@@ -1,5 +1,6 @@
 import React from 'react'; 
-import {withRouter} from 'react-router-dom'; 
+import {withRouter, Redirect} from 'react-router-dom'; 
+import {Route, Switch, Link, BrowserRouter as Router} from 'react-router-dom'; 
 import NavBarre from './NavBarre'; 
 import Title from './Title';
 import Footer from './Footer';
@@ -8,6 +9,15 @@ import './../Nomuse.css';
 const header = {
     backgroundColor: '#EFDCDD', 
     height:'90vh',
+}
+
+const link = {
+    fontSize: '1.25em', 
+    textDecoration: 'none', 
+    color: '#66242D', 
+    textTransform: 'uppercase', 
+    fontWeight: '600',
+
 }
 
 class Nomuse extends React.Component {
@@ -72,6 +82,9 @@ class Nomuse extends React.Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='linkDiv'>
+                    <Link to='nomuse.netlify.com/' style={link} >Link to the project</Link>
                 </div>
                 <Footer/>
             </div>
