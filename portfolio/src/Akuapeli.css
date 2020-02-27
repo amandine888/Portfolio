@@ -1,0 +1,170 @@
+.akuapeliContainer{
+    background-color: #F1EFF5;
+}
+
+.headerContainerAkuapeli{
+    /* border: 2px solid peru;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.titleContainer h1{
+    /* border: 2px solid red;  */
+    font-size: 12.5em;
+    margin-top: 20vh;
+}
+
+.formuleContainerAkuapeli{
+    /* border: 2px solid blue; */
+    width: 50vw;
+    position: absolute;
+    bottom: 27vh;
+}
+
+.formuleContainerAkuapeli p {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.projectContainerAkuapeli {
+    display: flex;
+}
+
+.sizeDivAkuapeli{
+    /* border: 2px solid purple; */
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detailsProjectAkuapeli{
+    /* border: 2px solid fuchsia; */
+    width: 30vw;
+    height: 130vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detailsProjectAkuapeli h4{
+    font-size: 1.25em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.detailsProjectAkuapeli p {
+    font-size: 1.25em;
+}
+
+.colorContainerAkuapeli{
+    width: 50vw;
+    display: flex; 
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.color4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #FACFCE; 
+    border: 1px solid black;
+}
+
+.color5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #DD897A; 
+    border: 1px solid black;
+}
+
+.color6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #674F98; 
+    border: 1px solid black;
+}
+
+.positionImgAkuapeli{
+    /* border:2px solid forestgreen; */
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.akuapeliDiv1{
+    /* border:2px solid maroon; */
+    width: 250px;
+    height: 250px;
+}
+
+.akuapeliDiv1 img{
+    /* border:2px solid gray; */
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.akuapeliDiv2{
+    /* border:2px solid powderblue; */
+    width: 50vw;
+    height: 60vh;
+}
+
+.akuapeliDiv2 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.akuapeliDiv3{
+    /* border:2px solid darkgoldenrod; */
+    width: 40vw;
+    height: 80vh;
+}
+
+.akuapeliDiv3 img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.positionTitleAkua1{
+    position: relative; 
+}
+
+.positionTitleAkua1 h3{
+    text-transform: uppercase;
+    font-size: 4em;
+    position: absolute; 
+    right: 30vw; 
+    top: 35vh;
+}
+
+.positionTitleAkua2{
+    position: relative;
+}
+
+.positionTitleAkua2 h3{
+    text-transform: uppercase;
+    font-size: 4em;
+    position: absolute;
+    left: 20vw;
+    top: 50vh;
+}
+
+.linkDivAkua{
+    /* border: 2px solid blueviolet;  */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
