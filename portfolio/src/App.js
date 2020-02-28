@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Project from './components/Project'; 
 import Nomuse from './components/Nomuse';
 import Akuapeli from './components/Akuapeli'; 
+import Contact from './components/Contact'; 
 import NavBarre from './components/NavBarre'; 
 
 class App extends React.Component {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Route exact path='/Project' component={Project}/>
         <Route exact path='/Nomuse' component={Nomuse}/>
         <Route exact path='/Akuapeli' component={Akuapeli}/>
+        <Route exact path='/Contact' component={Contact}/>
         {/* <Route path='/NavBarre' component={NavBarre}></Route> */}
       </Switch>
     </Router>
